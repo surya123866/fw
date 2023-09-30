@@ -1,0 +1,78 @@
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 812px;
+  background-color: #fff;
+  gap: 42px;
+
+  .welcome-admit-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    h1 {
+      color: #333;
+      font-family: "Work Sans";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+  p {
+    width: 318px;
+    color: #999;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    span {
+      color: #666;
+      font-family: "Work Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    button {
+      display: inline-flex;
+      height: 36px;
+      padding: 11px 30px;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 100px;
+      background: var(--brand-yellow, #f7b348);
+      color: var(--brand-white, #fff);
+      font-family: "Work Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      border: none;
+      outline: none;
+    }
+    p {
+      color: #999;
+      font-family: " Work Sans";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

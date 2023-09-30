@@ -1,0 +1,93 @@
+.otp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 812px;
+  background-color: #fff;
+  gap: 50px;
+  h1 {
+    color: #333;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .number-edit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    p:nth-child(1) {
+      color: #666;
+      font-family: "Work Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      span {
+        color: #333;
+        font-family: " Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    p:nth-child(2) {
+      color: #f7b348;
+      font-family: " Work Sans";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .react-otp-input-container {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    color: #999;
+    font-family: " Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    span {
+      color: #f7b348;
+      font-family: " Work Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 10px;
+    }
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 224px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background-color: #f7b348;
+    color: #fff;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 667px;
+    left: 123px;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a518cc3.css",
+    "main.js": "/static/js/main.8560610c.js",
+    "static/media/Artboard 1.jpg": "/static/media/Artboard 1.675c4a04497e28bda5cc.jpg",
+    "static/media/undraw_confirmed_81ex.jpg": "/static/media/undraw_confirmed_81ex.f418fc5bfa806317d297.jpg",
+    "static/media/AK_logo.jpg": "/static/media/AK_logo.e55385eeaecf83497546.jpg",
+    "index.html": "/index.html",
+    "main.0a518cc3.css.map": "/static/css/main.0a518cc3.css.map",
+    "main.8560610c.js.map": "/static/js/main.8560610c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a518cc3.css",
+    "static/js/main.8560610c.js"
+  ]
+}

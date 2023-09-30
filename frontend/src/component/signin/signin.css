@@ -1,0 +1,87 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 812px;
+  background-color: #fff;
+  gap: 50px;
+}
+.signin-container img {
+  width: 264px;
+  height: 50px;
+  top: 156px;
+  left: 55px;
+}
+.signin-container .welcome-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signin-container .welcome-text h1 {
+  width: 174px;
+  height: 28px;
+  top: 317px;
+  left: 101px;
+  color: #000;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.signin-container .welcome-text p {
+  width: 237px;
+  height: 19px;
+  top: 365px;
+  left: 70px;
+  color: #666;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.signin-container .number-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signin-container .error-message {
+  color: red;
+}
+.signin-container p {
+  width: 343px;
+  color: #999;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.signin-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 224px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background-color: #f7b348;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: 667px;
+  left: 123px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=signin.css.map */
