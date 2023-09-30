@@ -46,7 +46,8 @@ const Signin = () => {
   };
 
   const generateOTP = () => {
-    const apiUrl = "http://localhost:3001/generate-otp";
+    const apiUrl =
+      "https://us-central1-otp-authentication-5847a.cloudfunctions.net/app/generate-otp";
     const data = {
       mobileNumber: mobileNumber,
     };
@@ -57,8 +58,8 @@ const Signin = () => {
     axios
       .post(apiUrl, data, { headers: headers })
       .then((response) => {
-        //console.log(response);
-        if (response.statusText === "OK") {
+        console.log(response);
+        if (response.status === 200) {
           localStorage.setItem("OTP", response.data.otp);
           setNotification("OTP Sent Successfully!");
           setTimeout(() => {

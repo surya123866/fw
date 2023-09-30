@@ -32,7 +32,8 @@ const Otp = () => {
   //console.log(enteredOTP);
 
   const onResend = () => {
-    const apiUrl = "http://localhost:3001/generate-otp";
+    const apiUrl =
+      "https://us-central1-otp-authentication-5847a.cloudfunctions.net/app/generate-otp";
     const data = {
       mobileNumber: mobileNumber,
     };
@@ -43,7 +44,7 @@ const Otp = () => {
     axios
       .post(apiUrl, data, { headers: headers })
       .then((response) => {
-        if (response.statusText === "OK") {
+        if (response.status === 200) {
           otp = response.data.otp;
           // console.log(response.data);
         }
@@ -51,7 +52,6 @@ const Otp = () => {
       })
       .catch((error) => {
         console.error("Error:", error.message);
-  
       });
   };
 
@@ -69,7 +69,8 @@ const Otp = () => {
   };
 
   const validateOTP = () => {
-    const apiUrl = "http://localhost:3001/validate-otp";
+    const apiUrl =
+      "https://us-central1-otp-authentication-5847a.cloudfunctions.net/app/validate-otp";
     const data = {
       mobileNumber: `${mobileNumber.number}`,
       enteredOTP: `${enteredOTP}`,
@@ -92,7 +93,6 @@ const Otp = () => {
         })
         .catch((error) => {
           setOTPerror("Entered OTP is wrong");
-          
         });
     }
   };
